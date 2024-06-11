@@ -17,7 +17,7 @@ proc-macro2 = "^1.0.63"
 quote = "^1.0.26"
 syn = { workspace = true, features = ["full"] }
 convert_case = "^0.6.0"
-server_fn_macro = "0.6.11"
+server_fn_macro = { git = "https://github.com/ealmloff/leptos", branch = "server-fn-streaming-json" }
 
 [lib]
 proc-macro = true
